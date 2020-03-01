@@ -1,5 +1,5 @@
 ## Run with docker
-####### Create env file at envs/common.env
+##### Create env file at envs/common.env
 
 ### Allow exection for script local_run.sh and pull_run.sh
     sudo chmod +x local_run.sh
