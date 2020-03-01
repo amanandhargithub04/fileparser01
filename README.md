@@ -24,9 +24,9 @@
 ### Run with docker compose 
     docker-compose up -d --build
     
-## NOTE : All the script files can be downloaded from https://github.com/amanandhargithub04/fileparser01.git
-
-##Test API
+#### NOTE : All the script files can be downloaded from this repo
+ 
+## Test API
    - After running the application through docker scripts
    - The Application will run in http://localhost:8080
    - There are two end points exposed to parse CSV and XML files
