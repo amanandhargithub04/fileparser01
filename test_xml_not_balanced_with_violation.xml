@@ -1,0 +1,4 @@
+<TransactionList>
+    <Transaction type="D" amount="61.22" narration="Electricity Bill" />
+    <Transaction type="C" amount="" narration="Shopping Bill" />
+</TransactionList>

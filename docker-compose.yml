@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  web:
+    image: amanandhardocker04/fileprocessor:v1
+    container_name: file-processor-web
+    restart: unless-stopped
+    networks:
+      - fileprocessor-net
+    env_file: envs/common.env
+    ports:
+      - 8080:8080
+networks:
+  fileprocessor-net:
+    driver: bridge
